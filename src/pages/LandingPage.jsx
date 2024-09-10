@@ -1,7 +1,5 @@
 
-import NavBar from '../components/NavBar';
 import Testimonials from '../components/Testimonials';
-import Footer from '../components/Footer';
 import logo from '../assets/herologo.png';
 import dlogo from '../assets/logo.png';
 import section_3 from '../assets/section_3.png';
@@ -13,7 +11,7 @@ const LandingPage = () => {
         
       
       {/* section 1 */}
-      <section className='flex flex-col h-screen w-[1440px] mx-auto'>
+      <section className='flex flex-col h-screen w-[1440px] mx-auto '>
         <div className='flex items-center justify-between gap-10'>
           <div className='w-[50%]'>
             <div className='p-4 space-y-6'>
@@ -193,8 +191,7 @@ const LandingPage = () => {
         </div>
       </div>
     </section>
-    {/* footer */}
-      <Footer/>
+    
     </div>
   )
 }
