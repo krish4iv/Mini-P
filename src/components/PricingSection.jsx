@@ -47,9 +47,9 @@ export const pricingPlans = [
 
 const PricingSection = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-3xl capitalize">Pricing</h1>
-      <h2 className="pt-3 mb-8 text-3xl font-extrabold">
+    <div className="mt-10 text-center">
+      <h1 className="text-6xl font-extrabold capitalize">Pricing</h1>
+      <h2 className="pt-3 mb-8 text-3xl font-semibold">
         Flexible Pricing to Fit Your Needs
       </h2>
       <div className="grid items-center max-w-screen-xl grid-cols-1 gap-3 mx-auto mt-10 md:grid-cols-3">
